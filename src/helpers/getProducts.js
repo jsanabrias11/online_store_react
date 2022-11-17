@@ -1,6 +1,6 @@
 export const getProducts = async () => {    
     try {
-        const resp = await fetch('db.json');
+        const resp = await fetch('./db.json');
         const productJson = await resp.json();
         return productJson;
         
