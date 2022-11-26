@@ -13,7 +13,7 @@ export const OnlineStoreApp = () => {
     <>      
       <NavMenu />
       <Routes >
-        <Route path='/' element={ <HomePage />}/>
+        <Route path='/online_store_react/' element={ <HomePage />}/>
         <Route path='shoppingcar' element={ <ShoppingCarPage />}/>
         <Route path='productmanager' element={ <BasicTabs />}/>
 
